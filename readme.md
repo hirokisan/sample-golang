@@ -10,7 +10,6 @@ golang is good at
 ## Disadvantage
 golang is not good at
 
-
 ## Environment
 How to setup environment
 
