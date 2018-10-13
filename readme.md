@@ -16,6 +16,7 @@ How to setup environment
 
 ### Dependency
 * [System requirements](https://golang.org/doc/install#requirements)
+* [Linux Requirements](https://github.com/moovweb/gvm#linux-requirements)
 
 ### Version Manage
 * [gvm](https://github.com/moovweb/gvm)
