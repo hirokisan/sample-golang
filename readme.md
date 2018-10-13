@@ -19,8 +19,10 @@ How to setup environment
 * [Linux Requirements](https://github.com/moovweb/gvm#linux-requirements)
 
 ### Version Manage
-* [gvm](https://github.com/moovweb/gvm)
+feel goenv is more easy to start than gvm
+
 * [goenv](https://github.com/syndbg/goenv)
+* [gvm](https://github.com/moovweb/gvm)
 
 ### Sandbox
 * [hirokisan/docker-golang](https://github.com/hirokisan/docker-golang)
