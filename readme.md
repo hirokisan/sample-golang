@@ -117,4 +117,5 @@ feel goenv is more easy to start than gvm
 * [Golang Samples](https://github.com/golang-samples)
 * [Go Playground](https://play.golang.org/)
 * [Vimを使ったGo言語開発手法](https://mattn.kaoriya.net/software/vim/20130531000559.htm)
+* [fatih/vim-go-tutorial](https://github.com/fatih/vim-go-tutorial#vimrc-improvements)
 * [おそらくはそれさえも平凡な日々](http://www.songmu.jp/riji/entry/prepare-golang-development-environment-on-mac.html)
