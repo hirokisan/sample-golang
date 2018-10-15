@@ -73,6 +73,7 @@ feel goenv is more easy to start than gvm
 * [ ] Build RESTful API service
 * [ ] Deploy Web app to Cloud
 * [ ] Deploy RESTful API service to Cloud
+* [ ] Show run result on vim
 
 ## Ref
 
@@ -80,6 +81,7 @@ feel goenv is more easy to start than gvm
 * [Documentation](https://golang.org/doc/)
 * [Packages](https://golang.org/pkg/)
 * [Project](https://golang.org/project/)
+* [Declaration Syntax](https://blog.golang.org/gos-declaration-syntax)
 * [Go Search](https://go-search.org/)
 
 ### Tutorial
