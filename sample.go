@@ -5,10 +5,13 @@ import (
 	"math"
 )
 
+const Pi = 3.14
+
 var i int = 10
 
 func main() {
-	getTypeInterface()
+	getConst()
+	//getTypeInterface()
 	//fmt.Print(getTypeConvert(3, 4))
 	//getZeroValue()
 	//getI()
@@ -53,4 +56,8 @@ func getTypeConvert(x, y int) uint {
 func getTypeInterface() {
 	v := 12.00
 	fmt.Printf("v is of type %T\n", v)
+}
+
+func getConst() {
+	fmt.Println(Pi)
 }
