@@ -2,8 +2,11 @@ package main
 
 import "fmt"
 
+var i int = 10
+
 func main() {
-	fmt.Println(add(1, 3))
+	fmt.Println(i)
+	//fmt.Println(add(1, 3))
 	//a, b := swap("hello", "world")
 	//fmt.Println(a, b)
 }
