@@ -8,7 +8,8 @@ import (
 var i int = 10
 
 func main() {
-	fmt.Print(getTypeConvert(3, 4))
+	getTypeInterface()
+	//fmt.Print(getTypeConvert(3, 4))
 	//getZeroValue()
 	//getI()
 	//fmt.Println(i)
@@ -47,4 +48,9 @@ func getTypeConvert(x, y int) uint {
 	var z uint = uint(f)
 
 	return z
+}
+
+func getTypeInterface() {
+	v := 12.00
+	fmt.Printf("v is of type %T\n", v)
 }
