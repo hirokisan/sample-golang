@@ -10,7 +10,8 @@ const Pi = 3.14
 var i int = 10
 
 func main() {
-	getConst()
+	getLoop()
+	//getConst()
 	//getTypeInterface()
 	//fmt.Print(getTypeConvert(3, 4))
 	//getZeroValue()
@@ -60,4 +61,10 @@ func getTypeInterface() {
 
 func getConst() {
 	fmt.Println(Pi)
+}
+
+func getLoop() {
+	for i := 0; i < 10; i++ {
+		fmt.Print(i)
+	}
 }
