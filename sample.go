@@ -10,7 +10,8 @@ const Pi = 3.14
 var i int = 10
 
 func main() {
-	getInfiniteLoop()
+	fmt.Println(isFive(5))
+	//getInfiniteLoop()
 	//getLoop()
 	//getConst()
 	//getTypeInterface()
@@ -73,4 +74,11 @@ func getLoop() {
 func getInfiniteLoop() {
 	for {
 	}
+}
+
+func isFive(x int) (result bool) {
+	if x == 5 {
+		result = true
+	}
+	return result
 }
