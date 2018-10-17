@@ -5,7 +5,8 @@ import "fmt"
 var i int = 10
 
 func main() {
-	getI()
+	getZeroValue()
+	//getI()
 	//fmt.Println(i)
 	//fmt.Println(add(1, 3))
 	//a, b := swap("hello", "world")
@@ -24,4 +25,15 @@ func swap(x, y string) (string, string) {
 func getI() {
 	i := 10 // can use := only inside function
 	fmt.Println(i)
+}
+
+func getZeroValue() {
+	var (
+		i int
+		j float64
+		k bool
+		l string
+	)
+
+	fmt.Printf("%v, %v, %v, %q\n", i, j, k, l)
 }
