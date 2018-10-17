@@ -1,11 +1,15 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"math"
+)
 
 var i int = 10
 
 func main() {
-	getZeroValue()
+	fmt.Print(getTypeConvert(3, 4))
+	//getZeroValue()
 	//getI()
 	//fmt.Println(i)
 	//fmt.Println(add(1, 3))
@@ -36,4 +40,11 @@ func getZeroValue() {
 	)
 
 	fmt.Printf("%v, %v, %v, %q\n", i, j, k, l)
+}
+
+func getTypeConvert(x, y int) uint {
+	var f float64 = math.Sqrt(float64(x*x + y*y))
+	var z uint = uint(f)
+
+	return z
 }
