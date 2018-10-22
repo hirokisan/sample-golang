@@ -10,7 +10,8 @@ const Pi = 3.14
 var i int = 10
 
 func main() {
-	fmt.Println(isFive(5))
+	fmt.Print(isGreaterThan10(1))
+	//fmt.Println(isFive(5))
 	//getInfiniteLoop()
 	//getLoop()
 	//getConst()
@@ -78,6 +79,16 @@ func getInfiniteLoop() {
 
 func isFive(x int) (result bool) {
 	if x == 5 {
+		result = true
+	}
+	return result
+}
+
+func isGreaterThan10(num int) (result bool) {
+	switch {
+	case num < 10:
+		result = false
+	case num >= 10:
 		result = true
 	}
 	return result
