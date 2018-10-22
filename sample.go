@@ -10,7 +10,8 @@ const Pi = 3.14
 var i int = 10
 
 func main() {
-	fmt.Print(isGreaterThan10(1))
+	useDefer()
+	//fmt.Print(isGreaterThan10(1))
 	//fmt.Println(isFive(5))
 	//getInfiniteLoop()
 	//getLoop()
@@ -92,4 +93,10 @@ func isGreaterThan10(num int) (result bool) {
 		result = true
 	}
 	return result
+}
+
+func useDefer() {
+	defer fmt.Println("world")
+
+	fmt.Println("hello")
 }
