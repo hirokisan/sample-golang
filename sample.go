@@ -3,6 +3,8 @@ package main
 import (
 	"fmt"
 	"math"
+
+	"github.com/davecgh/go-spew/spew"
 )
 
 const Pi = 3.14
@@ -10,7 +12,8 @@ const Pi = 3.14
 var i int = 10
 
 func main() {
-	useMultiDefer()
+	useSpew()
+	//useMultiDefer()
 	//useDefer()
 	//fmt.Print(isGreaterThan10(1))
 	//fmt.Println(isFive(5))
@@ -108,4 +111,16 @@ func useMultiDefer() {
 	defer fmt.Println("fantastic")
 
 	fmt.Println("hello")
+}
+
+func useSpew() {
+	a := struct {
+		A []string
+		n int
+	}{
+		A: []string{"a", "b", "c"},
+		n: 123,
+	}
+
+	spew.Dump(a)
 }
