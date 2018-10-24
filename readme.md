@@ -81,6 +81,7 @@ feel goenv is more easy to start than gvm
 * [Documentation](https://golang.org/doc/)
 * [Packages](https://golang.org/pkg/)
 * [Project](https://golang.org/project/)
+* [How to Write Go Code](https://golang.org/doc/code.html)
 * [Declaration Syntax](https://blog.golang.org/gos-declaration-syntax)
 * [Go Search](https://go-search.org/)
 * [fmt](http://golang.jp/pkg/fmt)
