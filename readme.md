@@ -125,3 +125,4 @@ feel goenv is more easy to start than gvm
 * [おそらくはそれさえも平凡な日々](http://www.songmu.jp/riji/entry/prepare-golang-development-environment-on-mac.html)
 * [依存関係管理ツールdep(golang)](https://qiita.com/Azizjan/items/66564b5dc7597717932b)
 * [ベンダリングのベストプラクティス](http://golang.rdy.jp/2016/08/01/vendoring/)
+* [golang チートシート](https://qiita.com/jca02266/items/56a4fb7b07b692a6bf34)
